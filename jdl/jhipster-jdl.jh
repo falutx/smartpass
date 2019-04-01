@@ -1,0 +1,41 @@
+entity Pass {
+	season String,
+    status Status,
+    owner String,
+    passId Integer
+}
+
+entity Zone {
+	name String,
+    price BigDecimal
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Seat {
+	row Integer,
+	seat Integer,
+    seatId String
+}
+/**
+ * Task entity.
+ * @author The JHipster team.
+ */
+enum Status {
+    VALID, CANCELLED, PENDING
+}
+
+relationship OneToMany {
+	Zone{seats} to Seat
+}
+
+relationship OneToOne {
+	Pass{seat} to Seat
+}
+
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

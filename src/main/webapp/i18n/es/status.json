@@ -1,0 +1,10 @@
+{
+  "smartpassApp": {
+    "Status": {
+      "null": "",
+      "VALID": "VALID",
+      "CANCELLED": "CANCELLED",
+      "PENDING": "PENDING"
+    }
+  }
+}

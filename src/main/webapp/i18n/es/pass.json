@@ -1,0 +1,29 @@
+{
+  "smartpassApp": {
+    "pass": {
+      "home": {
+        "title": "Passes",
+        "createLabel": "Crear nuevo Pase",
+        "createOrEditLabel": "Crear o editar Pase"
+      },
+      "created": "Un nuevo Pass ha sido creado con el identificador {{ param }}",
+      "updated": "Un Pass ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Pass ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar el Pase {{ id }}?"
+      },
+      "detail": {
+        "title": "Pass"
+      },
+      "season": "Season",
+      "status": "Status",
+      "owner": "Owner",
+      "passId": "Pass Id",
+      "seat": "Seat",
+      "validate": {
+        "question": "¿Seguro que quiere validar el Pase {{ id }}?",
+        "title": "Confirmar validación"
+      }
+    }
+  }
+}

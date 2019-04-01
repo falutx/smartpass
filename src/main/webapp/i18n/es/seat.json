@@ -1,0 +1,24 @@
+{
+  "smartpassApp": {
+    "seat": {
+      "home": {
+        "title": "Seats",
+        "createLabel": "Crear nuevo Seat",
+        "createOrEditLabel": "Crear o editar Seat"
+      },
+      "created": "Un nuevo Seat ha sido creado con el identificador {{ param }}",
+      "updated": "Un Seat ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Seat ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Seat {{ id }}?"
+      },
+      "detail": {
+        "title": "Seat"
+      },
+      "row": "Row",
+      "seat": "Seat",
+      "seatId": "Seat Id",
+      "zone": "Zone"
+    }
+  }
+}

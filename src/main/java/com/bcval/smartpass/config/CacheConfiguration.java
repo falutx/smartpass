@@ -38,6 +38,10 @@ public class CacheConfiguration {
             cm.createCache(com.bcval.smartpass.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.bcval.smartpass.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.bcval.smartpass.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.bcval.smartpass.domain.Pass.class.getName(), jcacheConfiguration);
+            cm.createCache(com.bcval.smartpass.domain.Zone.class.getName(), jcacheConfiguration);
+            cm.createCache(com.bcval.smartpass.domain.Zone.class.getName() + ".seats", jcacheConfiguration);
+            cm.createCache(com.bcval.smartpass.domain.Seat.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

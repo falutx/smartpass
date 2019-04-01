@@ -1,0 +1,30 @@
+{
+    "name": "Zone",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "seat",
+            "otherEntityRelationshipName": "zone",
+            "relationshipName": "seats"
+        }
+    ],
+    "changelogDate": "20190327182228",
+    "entityTableName": "zone",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

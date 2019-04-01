@@ -1,0 +1,35 @@
+{
+    "name": "Seat",
+    "fields": [
+        {
+            "fieldName": "row",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "seat",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "seatId",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "zone",
+            "otherEntityName": "zone",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190327182229",
+    "javadoc": "not an ignored comment",
+    "entityTableName": "seat",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
